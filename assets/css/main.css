@@ -3935,6 +3935,10 @@
 			margin-top: 500px;
 		}
 
+		#three p {
+			font-size: 14pt; 
+		}
+
 			@media screen and (max-width: 980px) {
 
 				#intro p br {
