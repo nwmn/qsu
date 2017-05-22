@@ -3905,11 +3905,14 @@
 		}
 
 		div.events h3 {
-			font-size: 12pt;
+			font-size: 1vw;
 		}
-		div.events p {
-			font-size: 12pt;
+
+		.light {
+			font-weight: light;
+
 		}
+
 
 /* Intro */
 
@@ -3936,7 +3939,7 @@
 		}
 
 		#three p {
-			font-size: 14pt; 
+			font-size: 14pt;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3947,6 +3950,11 @@
 				div.events {
 					height: 160px;
 				}
+
+				div.events h3 {
+					font-size: 2vw;
+				}
+
 
 			}
 
