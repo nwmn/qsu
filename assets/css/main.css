@@ -3391,8 +3391,8 @@ div.events {
   height: 120px;
 }
 
-div.events h3 {
-  font-size: 1vw;
+div.events p {
+  /*font-size: 1vw;*/
   display: block;
   margin: auto;
   margin-bottom: 0px;
@@ -3436,10 +3436,15 @@ div.events h3 {
     display: none;
   }
   div.events {
-    height: 160px;
+    height: 100px;
   }
-  div.events h3 {
+  #three div.events p {
     font-size: 2vw;
+    text-align: center;
+  }
+  .middle {
+    display: inline block;
+    margin-top: auto;
   }
 }
 
@@ -3450,10 +3455,27 @@ div.events h3 {
   div.events {
     overflow: hidden;
   }
+  div.events {
+    height: 100px;
+  }
+  div.events p {
+    font-size: 2vw;
+    text-align: center;
+  }
+  .middle {
+    display: inline block;
+    margin-top: auto;
+  }
 }
 
 @media screen and (max-width: 1280px) {
   #intro {
     background-attachment: scroll;
   }
+}
+
+.middle {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
 }
