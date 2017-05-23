@@ -3421,6 +3421,21 @@ div.events p {
   margin-top: 500px;
 }
 
+.inner h2.names {
+  display: inline;
+  float: left;
+}
+
+.inner .pronouns {
+  float: left;
+  padding-left: 2vw;
+  padding-top: 1.2vh;
+}
+
+.row {
+  clear: both;
+}
+
 #three p {
   font-size: 14pt;
 }
@@ -3460,6 +3475,11 @@ div.events p {
     display: inline block;
     margin-top: auto;
   }
+
+  .inner .pronouns {
+    padding-top: 0.2vh;
+  }
+
 }
 
 @media screen and (max-width: 1280px) {
