@@ -3382,6 +3382,7 @@ div.events {
   margin: auto;
   width: 50%;
   height: 120px;
+	color: rgba(255,255,255,0.8);
 }
 
 div.events p {
