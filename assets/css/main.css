@@ -3429,7 +3429,7 @@ div.events p {
 .inner .pronouns {
   float: left;
   padding-left: 2vw;
-  padding-top: 1.2vh;
+  padding-top: 1.6vh;
 }
 
 .row {
@@ -3455,6 +3455,7 @@ div.events p {
     display: inline block;
     margin-top: auto;
   }
+
 }
 
 @media screen and (max-width: 736px) {
@@ -3477,7 +3478,8 @@ div.events p {
   }
 
   .inner .pronouns {
-    padding-top: 0.2vh;
+    display: block;
+    margin-top: -0.8vh;
   }
 
 }
@@ -3486,10 +3488,22 @@ div.events p {
   #intro {
     background-attachment: scroll;
   }
+
+  .inner .pronouns {
+    padding-top: 1.2vh;
+  }
+
 }
 
 .middle {
   margin-top: 20px;
   text-align: center;
   width: 100%;
+}
+
+
+@media screen and (min-width: 1281px) and (max-width: 1650px) {
+  .inner .pronouns {
+    padding-top: 1.3vh;
+  }
 }
