@@ -2193,6 +2193,7 @@ input[type="radio"]+label:before {
 }
 
 
+
 /* List */
 
 ol {
@@ -2956,6 +2957,10 @@ body.is-ie .wrapper.fullscreen {
 @media screen and (max-width: 736px) {
   #header {
     padding: 1em 2em;
+  }
+
+  #intro .topper {
+    margin-top: -150px; 
   }
 }
 
