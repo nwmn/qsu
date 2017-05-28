@@ -1,4 +1,4 @@
-Working draft of QSU website. To be hosted through GitHub w/ purchase of domain name. 
+Files for QSU website. Currently hosted using GitHub & Cloudfare. 
 
 Credits:
 
