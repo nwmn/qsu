@@ -3277,6 +3277,11 @@ body.is-ie #sidebar>.inner {
   width: 100%;
 }
 
+#three a {
+  outline: none;
+  text-decoration: none;
+}
+
 #sidebar nav a:before {
   background: #3c2c62;
 }
