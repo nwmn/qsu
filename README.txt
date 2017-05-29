@@ -1,6 +1,6 @@
-Files for QSU website. Currently hosted using GitHub & Cloudfare. 
+Active files and associated hierarchy for QSU website. Currently hosted using GitHub & Cloudfare. 
 
-Credits:
+Credits & Attribution:
 
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
