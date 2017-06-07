@@ -1402,6 +1402,12 @@ h6 {
   font-size: 0.6em;
 }
 
+@media screen and (max-width: 500px) {
+  #intro h1 {
+    font-size: 5.5vw;
+  }
+}
+
 @media screen and (max-width: 736px) {
   h1 {
     font-size: 2em;
@@ -2960,7 +2966,7 @@ body.is-ie .wrapper.fullscreen {
   }
 
   #intro .topper {
-    margin-top: -150px; 
+    margin-top: -150px;
   }
 }
 
