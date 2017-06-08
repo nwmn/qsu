@@ -1402,6 +1402,55 @@ h6 {
   font-size: 0.6em;
 }
 
+@media screen and (max-width: 499px) {
+
+    .features, .mission {
+      text-align: center;
+
+    }
+
+    .features .icon {
+      font-size: 35pt;
+      text-align: center;
+    }
+
+    .features .major {
+      display: inline-block;
+      text-align: center;
+    }
+
+    .features span.major.icon.fa-lock {
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+    .features span.major.icon.fa-superscript {
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+    .features span.major.icon.fa-info {
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+    .features span.major.icon.fa-microphone {
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+    .features span.major.icon.fa-thumbs-o-up {
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+    .features span.major.icon.fa-heart {
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+}
+
 @media screen and (max-width: 500px) {
   #intro h1 {
     font-size: 5.5vw;
