@@ -1404,9 +1404,8 @@ h6 {
 
 @media screen and (max-width: 460px) {
 
-    .features, .mission {
+    .center {
       text-align: center;
-
     }
 
     .features .icon {
