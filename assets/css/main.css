@@ -3575,3 +3575,16 @@ div.events p {
     padding-top: 1.3vh;
   }
 }
+
+@media screen and (max-width: 480px) {
+
+  #three div.events {
+    width: 70%;
+    height: 75px; 
+  }
+
+  #three div.events p {
+    font-size: 2.5vw;
+  }
+
+}
