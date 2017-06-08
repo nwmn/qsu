@@ -1402,7 +1402,7 @@ h6 {
   font-size: 0.6em;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 498px) {
 
     .features, .mission {
       text-align: center;
