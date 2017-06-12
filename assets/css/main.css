@@ -42,6 +42,8 @@ body {
   -webkit-text-size-adjust: none;
 }
 
+* { outline: none; }
+
 
 /* Box Model */
 
@@ -3580,7 +3582,7 @@ div.events p {
 
   #three div.events {
     width: 70%;
-    height: 75px; 
+    height: 75px;
   }
 
   #three div.events p {
