@@ -1402,15 +1402,18 @@ h6 {
   font-size: 0.6em;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
 
-    .features, .mission {
+    .center {
       text-align: center;
+    }
 
+    #one h3 {
+      text-align: center;
     }
 
     .features .icon {
-      font-size: 30pt;
+      font-size: 25pt;
       text-align: center;
     }
 
@@ -3571,4 +3574,17 @@ div.events p {
   .inner .pronouns {
     padding-top: 1.3vh;
   }
+}
+
+@media screen and (max-width: 480px) {
+
+  #three div.events {
+    width: 70%;
+    height: 75px; 
+  }
+
+  #three div.events p {
+    font-size: 2.5vw;
+  }
+
 }
