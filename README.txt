@@ -1,4 +1,4 @@
-Active files and associated hierarchy for QSU website. Currently hosted using GitHub & Cloudflare. 
+Active files and associated hierarchy for QSU website. Currently hosted using GitHub & Cloudflare. Recently updated to full SSL encryption. 
 
 Credits & Attribution:
 
