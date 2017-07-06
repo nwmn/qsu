@@ -3590,3 +3590,7 @@ div.events p {
   }
 
 }
+
+iframe{
+  border-radius: 5px;
+}
