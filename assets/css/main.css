@@ -3526,6 +3526,11 @@ div.events p {
     margin-top: auto;
   }
 
+  iframe {
+    width: 100%;
+    margin: auto;
+  }
+
 }
 
 @media screen and (max-width: 736px) {
@@ -3591,6 +3596,6 @@ div.events p {
 
 }
 
-iframe{
+iframe {
   border-radius: 5px;
 }
