@@ -13,6 +13,14 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-101884726-3', 'auto');
   ga('send', 'pageview');  </script>
+	<script language="javascript">
+		function ClipBoard {
+			holdtext.innerText = copytext.innerText;
+			Copied = holdtext.createTextRange();
+			Copied.execCommand("RemoveFormat");
+			Copide.execCommand("Copy");
+		}
+	</script>
 </head>
 
 <body>
@@ -169,27 +177,8 @@
 		<section id="four" class="wrapper style1 fade-up">
 			<div class="inner">
 				<h2>Contact QSU</h2>
-				<p>Got questions, feedback, or concerns? Please let us know! <br /> Use the form below to get in touch with our team directly via email.
-				<div class="split style1">
-					<section>
-						<form method="post" action="mailto:qsu.ucdavis@gmail.com">
-							<div class="field half first">
-								<label for="name">Name</label>
-								<input type="text" name="name" id="name" />
-							</div>
-							<div class="field half">
-								<label for="email">Email</label>
-								<input type="text" name="email" id="email" />
-							</div>
-							<div class="field">
-								<label for="message">Message</label>
-								<textarea name="message" id="message" rows="5"></textarea>
-							</div>
-							<ul class="actions">
-								<li><a href="" class="button submit">Send Now</a></li>
-							</ul>
-						</form>
-					</section>
+				<p>Got questions, feedback, or concerns? Please let us know! <br />
+				<div class="style1">
 					<section>
 						<ul class="contact">
 							<li>
