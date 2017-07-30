@@ -3596,16 +3596,19 @@ div.events p {
     font-size: 2.5vw;
   }
 
-  .pronouns { 
-  	padding-left: 1vw; 
+  #two p.pronouns { 
+  	margin-top: -0.6vh;
+  	padding-left: 2vw;
   }
 
 }
 
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 380px) {
 
-  .pronouns { 
-  	padding-left: 0px; 
+  #two p.pronouns { 
+  	font-size: 7pt;
+  	padding-left: 15px; 
+  	margin-top: 1px;
    }
 
 }
