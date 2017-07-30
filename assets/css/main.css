@@ -1,4 +1,6 @@
 @import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,500');
+
 
 /* Reset */
 
@@ -17,7 +19,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 ol, ul {
@@ -1292,9 +1294,8 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.55);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 16.5pt;
-  font-weight: normal;
   line-height: 1.75;
 }
 
