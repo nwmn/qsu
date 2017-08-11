@@ -3472,7 +3472,7 @@ div.events p {
 /* Intro */
 
 #intro {
-  background-image: url("../../images/rainbow.jpg");
+  background-image: url("../../images/rainbow.png");
   background-repeat: no-repeat;
   /*background-size: 100% 100%;*/
   background-size: cover;
@@ -3596,7 +3596,7 @@ div.events p {
     font-size: 2.5vw;
   }
 
-  #two p.pronouns { 
+  #two p.pronouns {
   	margin-top: -0.6vh;
   	padding-left: 2vw;
   }
@@ -3605,9 +3605,9 @@ div.events p {
 
 @media screen and (max-width: 380px) {
 
-  #two p.pronouns { 
+  #two p.pronouns {
   	font-size: 7pt;
-  	padding-left: 15px; 
+  	padding-left: 15px;
   	margin-top: 1px;
    }
 
