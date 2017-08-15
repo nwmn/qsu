@@ -3481,12 +3481,6 @@ div.events p {
   overflow: hidden;
 }
 
-@media screen and (max-width: 900px) { 
-  #intro { 
-    background-image: url("../../images/rainbow2.jpg"); 
-  } 
-}
-
 #intro h1 {
   color: #FFFFFF;
 }
