@@ -3472,19 +3472,13 @@ div.events p {
 /* Intro */
 
 #intro {
-  background-image: url("../../images/rainbow2.jpg");
+  background-image: url("../../images/rainbow.png");
   background-repeat: no-repeat;
   /*background-size: 100% 100%;*/
   background-size: cover;
   background-position: center center;
   text-align: center;
   overflow: hidden;
-}
-
-@media screen and (max-width: 900px) { 
-  #intro { 
-    background-image: url("../../images/rainbow2.jpg"); 
-  } 
 }
 
 #intro h1 {
